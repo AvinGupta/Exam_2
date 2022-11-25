@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+    
+}
+li a{
+    text-decoration: none;
+    color: azure;
+}
+header{
+    background-color:  black;
+   display: flex;
+   justify-content: space-around;
+   padding: 0px;
+   margin: 0px 0px;
+   text-align: center;
+   
+}
+.Nav_Bar1 li{
+
+   display: inline-block;
+   padding: 20px;
+   font-size: 27px;
+
+}
+nav li h1{
+    color: aliceblue;
+    margin-top: 20px;
+    font-size: 30px;
+    padding: 5px;
+}
+.sec{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    border: 2px solid purple;
+}
+.sec_1{
+    position: relative;
+    left: 43vw;
+}
+.sec_head{
+    font-size: 3rem;
+    font-weight: 450;
+    width: 60vw;
+    height:25vh;
+    
+}
+.sec_btn{
+    display: inline;
+    position: relative;
+    top: 10vh;
+    border:  2px solid black;
+    padding: 15px 40px;
+    border-radius: 30px;
+}
+.sec_btn a{
+    text-decoration: none;
+}
+li a:hover{
+    text-decoration: green;
+}
+h2{
+    font-size: 20px;
+}
+sec_2 p{
+    font-size: medium;
+}
+.con2{
+display: flex;
+}
